@@ -23,6 +23,8 @@
                          <button onclick="square()"> x^2 </button>
 
                          <button onclick="cube()"> x^3 </button>
+ 
+                         <button onclick="power_4()"> x^4 </button>
 
                          <button onclick="sine()"> sin </button>
                  </p>
@@ -60,7 +62,15 @@
 
                          }
 
-                 </script>
+
+                         function power_4() {
+                                
+                                  var num = document.getElementblyd("n1");
+                                 
+                                  num.value = Math.pow(num.value, 4);
+                         }
+    
+               </script>
 
         </body>
 
