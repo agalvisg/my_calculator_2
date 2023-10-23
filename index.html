@@ -8,13 +8,11 @@
 
                  <meta charset="utf-8">
 
-        </head>
 
         <body>
 
                  <h1>Calculadora de Alejandro Galvis Gutiérrez</h1>
 
-                 Number:
 
                  <input type="text" id="n1">
 
@@ -26,6 +24,7 @@
 
                          <button onclick="cube()"> x^3 </button>
 
+                         <button onclick="sine()"> sin </button>
                  </p>
 
                  <script type="text/javascript">
@@ -52,7 +51,16 @@
                                   num.value = 1/num.value;
                          }
             
-                </script>
+
+                         function sine() {
+
+                                  var num = document.getElement ById("n1");
+
+                                  num.value = Math.sin(num.value);
+
+                         }
+
+                 </script>
 
         </body>
 
