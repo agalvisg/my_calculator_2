@@ -22,3 +22,11 @@
 **7.** verifiqué que siriviera la calculadora e hice _git push --all_ y lo llevé todo al repositorio remoto. Quedó con este enlace https: https://github.com/agalvisg/my_calculator.git
 
 
+## PRÁCTICA CALCULADORA ENTREGA 5
+
+**1.** Cloné el repositorio ["my_calculator"] en un repositorio local llamado ["my_calculator"_2].
+**2.** Generé una nueva rama a la cual llamé ops y desde ahí hice los dos nuevos botones de la calcuadora. 
+**3.** Cambié de ops a master y ejecuté el git rebase.
+**4.** Tuve que ejecutarlo dos veces, la primera para integrar el último commit que era el de x^2 que a su vez contenía ya el botón de 1/x; y después para integrar la rama sine y sus commits a la rama master con los commits nuevos (x^2, 1/x).
+**5.** Tuve que hacerlo una 3º vez pues nombré un commit final commit y tenía cambios en el archivo que estaban mal hechos y tuve que corregir.
+**6.** Añadí el repositorio remoto ["my_calculator_2"] como origen para hacer git push all y subir todo allí.
